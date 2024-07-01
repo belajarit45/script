@@ -2,6 +2,9 @@
 
 # Instalasi paket-paket yang diperlukan
 apk add --no-cache bash curl git docker-compose
+apk add netdata
+rc-service netdata start
+rc-update add netdata default
 
 # Fungsi untuk generate UUID baru
 generate_uuid() {
