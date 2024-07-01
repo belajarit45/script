@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install paket-paket yang diperlukan
-apk add bash curl git docker-compose netdata
+apk add --no-cache bash curl git docker-compose netdata
 
 # Install Netdata menggunakan perintah curl
 curl https://get.netdata.cloud/kickstart.sh > /tmp/netdata-kickstart.sh && \
