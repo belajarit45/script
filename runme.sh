@@ -23,7 +23,7 @@ generate_earnapp_url() {
 }
 
 # Token GitHub (ganti dengan token GitHub Anda)
-github_token="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"
+github_token="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"
 
 # Nama repo GitHub
 github_repo="belajarit45/database1"
