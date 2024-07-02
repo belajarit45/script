@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Install paket-paket yang diperlukan
-apk add --no-cache git docker-compose netdata
+
 
 # Start Netdata service
 rc-service netdata start
