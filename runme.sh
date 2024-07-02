@@ -10,8 +10,7 @@ rc-service netdata start
 rc-update add netdata default
 
 # Install Netdata menggunakan perintah curl
-curl https://get.netdata.cloud/kickstart.sh > /tmp/netdata-kickstart.sh && \
-sh /tmp/netdata-kickstart.sh --nightly-channel --claim-token o9siRJ31ih6DcytrHC84F93rdLYvjaclnu_R1_DnCKAlZdwKt-_ZM8CE2FrkgB_EaVQIM2xcZC0gNr1X5eGJLxapqQ2ofWNSixzzXakowjH5M_gk6OP--4flqlRC5BFv0PetjJc --claim-rooms ecf705d6-c0bc-4044-ac48-b241c9ac1db3 --claim-url https://app.netdata.cloud
+curl https://get.netdata.cloud/kickstart.sh > /tmp/netdata-kickstart.sh && sh /tmp/netdata-kickstart.sh --nightly-channel --claim-token 8nENkRzCTXX1gUzbEYD7FIs-EgAqUmubm3UbmtgmO9goWss27CYR5DZan5XJte2v9ojYBq9MoOl-2KCqw3vud_J7yx_MZ7TvFpAECi6XawivUDbKGIkGEN1PiQdN15zkU6infdM --claim-rooms ecf705d6-c0bc-4044-ac48-b241c9ac1db3 --claim-url https://app.netdata.cloud
 
 # Fungsi untuk generate UUID baru
 generate_uuid() {
