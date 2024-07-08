@@ -2,11 +2,11 @@
 
 # Array of URLs
 urls=(
-  "https://earnapp.com/r/sdk-node-a4440cfc329f49ecbc349e43f90c9c25"
-  "https://earnapp.com/r/sdk-node-a5d04caa43a64867bc008c0f533e33b6"
-  "https://earnapp.com/r/sdk-node-693434f335914a07872ca17b554c5748"
-  "https://earnapp.com/r/sdk-node-80b9d5b677a94bd68c3baaa77511cea7"
-  "https://earnapp.com/r/sdk-node-6c6a7d495c0843e5bdc3b869bdaf5a05"
+  "https://earnapp.com/r/sdk-android-a4440cfc329f49ecbc349e43f90c9c25"
+  "https://earnapp.com/r/sdk-android-a5d04caa43a64867bc008c0f533e33b6"
+  "https://earnapp.com/r/sdk-android-693434f335914a07872ca17b554c5748"
+  "https://earnapp.com/r/sdk-android-80b9d5b677a94bd68c3baaa77511cea7"
+  "https://earnapp.com/r/sdk-android-6c6a7d495c0843e5bdc3b869bdaf5a05"
 )
 
 # Function to open URL in browser
